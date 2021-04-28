@@ -93,6 +93,6 @@ img.pic {
     width:300px;
     height:300px;
 }
-h3#homepagecaption {
+h1#homepagetitle, h3#homepagecaption {
     text-align: center;
 }
