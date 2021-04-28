@@ -3,6 +3,21 @@ body {
     margin-left: 12%;
     margin-right: 12%;
 }
+a:link {  
+    color:mediumorchid;  
+}
+a:visited {  
+    color: mediumvioletred;  
+}
+a:hover {
+    color: red;
+}
+a:active {
+    color: royalblue
+}
+h1,h2 {
+    color: darkgreen;
+}
 h1 {
     font-family: fantasy, sans-serif ;
     font-size:5em;
@@ -15,10 +30,12 @@ h2 {
 p {
     text-align: justify;
     font-family: "Brush Script MT", sans-serif;
+    color: midnightblue;
+    padding: 0px 50px;
 }
 div.header, div.footer {
-    border: palegreen;
-    background-color: cadetblue;
+    border: darkcyan;
+    background-color: powderblue;
     border-radius: 25px;
     display:flex;
     border-style:dotted;
@@ -35,5 +52,15 @@ div.footer {
     padding: 15px;
 }
 div.footerstuff {
-    color: black;
+    color: midnightblue;
+}
+span#everestfloat {
+    float: left;
+    margin: 0em 1em 0em 0em;
+    width: 10%;
+    border:dotted;
+    border-color:darkcyan;
+    background-color: powderblue;
+    padding: 10px;
+    color: magenta;
 }
