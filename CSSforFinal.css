@@ -19,7 +19,7 @@ h1,h2,h3 {
     color: darkgreen;
 }
 h1 {
-    font-family: fantasy, sans-serif ;
+    font-family: "Marker Felt", fantasy, sans-serif ;
     font-size:4em;
     margin-bottom:0px;
     margin-top: 20px;
@@ -93,6 +93,6 @@ img.pic {
     width:300px;
     height:300px;
 }
-h3#homepagecaption {
+h1#homepagetitle, h3#homepagecaption {
     text-align:center;
 }
