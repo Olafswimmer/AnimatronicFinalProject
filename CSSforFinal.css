@@ -1,7 +1,7 @@
 body {
     background-color:lightcyan;
-    margin-left: 12%;
-    margin-right: 12%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 a:link {  
     color:darkgreen;  
@@ -13,7 +13,7 @@ a:hover {
     color: red;
 }
 a:active {
-    color: royalblue
+    color: blue
 }
 h1,h2 {
     color: darkgreen;
@@ -22,16 +22,19 @@ h1 {
     font-family: fantasy, sans-serif ;
     font-size:4em;
     margin-bottom:0px;
+    margin-top: 20px;
 }
 h2 {
     font-family: snell, "apple chancery", fantasy, sans-serif;
     font-style: italic;
+    font-size: 3em;
 }
 p {
     text-align: justify;
     font-family: "Brush Script MT", sans-serif;
     color: midnightblue;
     padding: 0px 50px;
+    font-size: 1.5em;
 }
 div.header, div.footer {
     border: darkcyan;
@@ -41,11 +44,12 @@ div.header, div.footer {
     border-style:dotted;
 }
 div.header {
-    margin:0% 30%;
+    margin:0% 20%;
     justify-content:center;
 }
 div.headerstuff {
     padding:2.5%;
+    font-size: 2em;
 }
 div.footer {
     flex-direction: column ;
@@ -54,11 +58,23 @@ div.footer {
 div.footerstuff {
     color: midnightblue;
 }
+img#everestday {
+    float: right;
+    border-radius:25px;
+    margin: 0em 0em 0em .75em;
+    width:45%;
+}
+video#everestmove {
+    float:right;
+    width:35%;
+    border-radius:25px;
+    margin: .25em 0em 0em .75em;
+}
 span#everestfloat {
     border-radius: 25px;
     float: left;
-    margin: 0em 1em 0em 0em;
-    width: 90px;
+    margin: 0em .75em 0em 0em;
+    width: 140px;
     border:dotted;
     border-color:darkcyan;
     background-color: powderblue;
