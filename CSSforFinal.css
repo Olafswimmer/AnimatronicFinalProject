@@ -41,29 +41,36 @@ p {
     padding: 0px 50px;
     font-size: 1.5em;
 }
-div.header, div.footer {
+div.header, div.headercontent, div.footer {
     border: darkcyan;
     background-color: powderblue;
     border-radius: 25px;
     display:flex;
     border-style:dotted;
 }
-div.header {
+div.headercontent {
     margin:0% 20%;
     justify-content:center;
 }
+div.header {
+    margin:0% 5%;
+    justify-content:center;
+}
 div.headerstuff {
-    padding:2.5%;
-    font-size: 2em;
+    padding:15px;
+    font-size: 1.40em;
+    font-family: "Brush Script MT", sans-serif;
 }
 div.footer {
     flex-direction: column ;
     padding: 15px;
+    margin:2% 5%;
 }
 div.footerstuff {
-    color: midnightblue;
-    font-size: 2em;
+    color: darkcyan;
+    font-size: 1.40em;
     padding-left: 10px;
+    font-family: "Brush Script MT", sans-serif;
 }
 img#everestday {
     float: right;
@@ -86,7 +93,7 @@ span#everestfloat {
     border-color:darkcyan;
     background-color: powderblue;
     padding: 10px;
-    color: darkgreen;
+    color: darkcyan;
 }
 div.piclinks {
     text-align: center;
