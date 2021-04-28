@@ -4,8 +4,36 @@ body {
     margin-right: 12%;
 }
 h1 {
-    font-family: cursive, fantasy, sans-serif ;
+    font-family: fantasy, sans-serif ;
+    font-size:5em;
+    margin-bottom:0px;
 }
 h2 {
     font-family: snell, "apple chancery", fantasy, sans-serif;
+    font-style: italic;
+}
+p {
+    text-align: justify;
+    font-family: "Brush Script MT", sans-serif;
+}
+div.header, div.footer {
+    border: palegreen;
+    background-color: cadetblue;
+    border-radius: 25px;
+    display:flex;
+    border-style:dotted;
+}
+div.header {
+    margin:0% 30%;
+    justify-content:center;
+}
+div.headerstuff {
+    padding:2.5%;
+}
+div.footer {
+    flex-direction: column ;
+    padding: 15px;
+}
+div.footerstuff {
+    color: black;
 }
