@@ -20,7 +20,7 @@ h1,h2 {
 }
 h1 {
     font-family: fantasy, sans-serif ;
-    font-size:5em;
+    font-size:4.5em;
     margin-bottom:0px;
 }
 h2 {
@@ -55,9 +55,10 @@ div.footerstuff {
     color: midnightblue;
 }
 span#everestfloat {
+    border-radius: 25px;
     float: left;
     margin: 0em 1em 0em 0em;
-    width: 10%;
+    width: 90px;
     border:dotted;
     border-color:darkcyan;
     background-color: powderblue;
