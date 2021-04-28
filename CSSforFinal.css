@@ -98,3 +98,6 @@ img.pic {
 h1#homepagetitle, h3#homepagecaption {
     text-align:center;
 }
+a {
+    text-decoration:none;
+}
