@@ -15,7 +15,7 @@ a:hover {
 a:active {
     color: blue
 }
-h1,h2 {
+h1,h2,h3 {
     color: darkgreen;
 }
 h1 {
@@ -28,6 +28,11 @@ h2 {
     font-family: snell, "apple chancery", fantasy, sans-serif;
     font-style: italic;
     font-size: 3em;
+}
+h3 {
+    font-family: cursive, snell, "apple chancery", fantasy, sans-serif;
+    font-style: italic;
+    font-size: 2.25em;
 }
 p {
     text-align: justify;
@@ -80,4 +85,14 @@ span#everestfloat {
     background-color: powderblue;
     padding: 10px;
     color: darkgreen;
+}
+div.piclinks {
+    text-align: center;
+}
+img.pic {
+    width:300px;
+    height:300px;
+}
+h3#homepagecaption {
+    text-align: center;
 }
