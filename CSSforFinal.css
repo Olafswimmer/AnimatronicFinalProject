@@ -84,6 +84,12 @@ video#everestmove {
     border-radius:25px;
     margin: .25em 0em 0em .75em;
 }
+video#everestanimation, video#amode, video#bmode {
+    float:left;
+    width:50%;
+    border-radius:25px;
+    margin: .25em .75em .5em 0em;
+}
 span#everestfloat {
     border-radius: 25px;
     float: left;
@@ -107,4 +113,12 @@ h1#homepagetitle, h3#homepagecaption {
 }
 a {
     text-decoration:none;
+}
+video.mode {
+    width:45%;
+    border-radius: 25px;
+}
+p.comparison {
+    padding-top:100px;
+    padding-bottom:100px;
 }
