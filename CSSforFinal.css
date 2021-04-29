@@ -41,7 +41,7 @@ p {
     padding: 0px 50px;
     font-size: 1.5em;
 }
-div.header, div.headercontent, div.footer {
+div.header, div.headercontent, div.homeheader, div.footer {
     border: darkcyan;
     background-color: powderblue;
     border-radius: 25px;
@@ -49,17 +49,22 @@ div.header, div.headercontent, div.footer {
     border-style:dotted;
 }
 div.headercontent {
-    margin:0% 20%;
-    justify-content:center;
+    margin:0% 30%;
+    justify-content:space-between;
 }
 div.header {
     margin:0% 5%;
-    justify-content:center;
+    justify-content:space-between;
+}
+div.homeheader {
+    margin:0% 5%;
+    justify-content:space-between;
 }
 div.headerstuff {
     padding:15px;
     font-size: 1.40em;
     font-family: "Brush Script MT", sans-serif;
+    text-align: center;
 }
 div.footer {
     flex-direction: column ;
