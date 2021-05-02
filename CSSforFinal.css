@@ -41,7 +41,7 @@ p {
     padding: 0px 50px;
     font-size: 1.5em;
 }
-div.header, div.headercontent, div.homeheader, div.footer {
+div.header, div.headercontent, div.homeheader, div.footer, div.mkheader, div.epcotheader {
     border: darkcyan;
     background-color: powderblue;
     border-radius: 25px;
@@ -50,6 +50,14 @@ div.header, div.headercontent, div.homeheader, div.footer {
 }
 div.headercontent {
     margin:0% 30%;
+    justify-content:space-between;
+}
+div.mkheader {
+    margin:0% 35%;
+    justify-content:space-between;
+}
+div.epcotheader {
+    margin:0% 32.5%;
     justify-content:space-between;
 }
 div.header {
