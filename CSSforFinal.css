@@ -41,7 +41,8 @@ p {
     padding: 0px 50px;
     font-size: 1.5em;
 }
-div.header, div.headercontent, div.homeheader, div.footer, div.mkheader, div.epcotheader {
+div.header, div.headercontent, div.homeheader, div.footer, div.mkheader, div.epcotheader, div.dlheader, div.hsheader, div.sdheader,
+div.cabheader {
     border: darkcyan;
     background-color: powderblue;
     border-radius: 25px;
@@ -52,12 +53,24 @@ div.headercontent {
     margin:0% 30%;
     justify-content:space-between;
 }
-div.mkheader {
-    margin:0% 35%;
+div.cabheader {
+    margin:0% 37.5%;
     justify-content:space-between;
 }
 div.epcotheader {
     margin:0% 32.5%;
+    justify-content:space-between;
+}
+div.dlheader {
+    margin:0% 35%;
+    justify-content:space-between;
+}
+div.hsheader {
+    margin:0% 27.5%;
+    justify-content:space-between;
+}
+div.sdheader {
+    margin:0% 32%;
     justify-content:space-between;
 }
 div.header {
