@@ -36,7 +36,7 @@ h3 {
 }
 p {
     text-align: justify;
-    font-family: "Brush Script MT", sans-serif;
+    font-family: Arial, sans-serif;
     color: midnightblue;
     padding: 0px 50px;
     font-size: 1.5em;
@@ -117,6 +117,29 @@ span#rohdequote {
     padding: 10px;
     color: darkcyan;
 }
+span#dinosaurfloat {
+    border-radius: 25px;
+    float: left;
+    margin: 0em 0.75em 0em 0em;
+    width: 135px;
+    border:dotted;
+    border-color:darkcyan;
+    background-color: powderblue;
+    padding: 10px;
+    color: darkcyan;
+    text-align: left;
+}
+span#dinosaur2float {
+    border-radius: 25px;
+    float: left;
+    margin: 0em 0.75em 0em 0em;
+    width: 145px;
+    border:dotted;
+    border-color:darkcyan;
+    background-color: powderblue;
+    padding: 10px;
+    color: darkcyan;
+}
 div.piclinks {
     text-align: center;
 }
@@ -140,7 +163,7 @@ video.mode {
     width:45%;
     border-radius: 25px;
 }
-p.comparison {
+p.comparisontxt {
     padding-top:100px;
     padding-bottom:100px;
 }
