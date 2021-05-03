@@ -173,6 +173,18 @@ span#peoplemoverfloat {
     color: darkcyan;
     text-align: left;
 }
+span#tcfloat {
+    border-radius: 25px;
+    float: left;
+    margin: 0em 0.75em 0em 0em;
+    width: 130px;
+    border:dotted;
+    border-color:darkcyan;
+    background-color: powderblue;
+    padding: 10px;
+    color: darkcyan;
+    text-align: left;
+}
 div.piclinks {
     text-align: center;
 }
