@@ -19,13 +19,13 @@ h1,h2,h3 {
     color: darkgreen;
 }
 h1 {
-    font-family: "Marker Felt", fantasy, sans-serif ;
-    font-size:4em;
+    font-family: "Rock Salt", "Marker Felt", fantasy, sans-serif ;
+    font-size:3.75em;
     margin-bottom:0px;
     margin-top: 20px;
 }
 h2 {
-    font-family: snell, "apple chancery", fantasy, sans-serif;
+    font-family: "Rock Salt", snell, "apple chancery", fantasy, sans-serif;
     font-style: italic;
     font-size: 3em;
 }
@@ -36,13 +36,13 @@ h3 {
 }
 p {
     text-align: justify;
-    font-family: Arial, sans-serif;
+    font-family: "Architects Daughter", Arial, sans-serif;
     color: midnightblue;
     padding: 0px 50px;
     font-size: 1.5em;
 }
 div.header, div.headercontent, div.homeheader, div.footer, div.epcotheader, div.dlheader, div.hsheader, div.sdheader,
-div.cabheader, div.smheader {
+div.cabheader, div.smheader, div.hubheader {
     border: darkcyan;
     background-color: powderblue;
     border-radius: 25px;
@@ -85,10 +85,14 @@ div.homeheader {
     margin:0% 5%;
     justify-content:space-between;
 }
+div.hubheader {
+    margin:0% 18.5%;
+    justify-content:space-between;
+}
 div.headerstuff {
     padding:15px;
     font-size: 1.40em;
-    font-family: "Brush Script MT", sans-serif;
+    font-family: "Architects Daughter", "Brush Script MT", sans-serif;
     text-align: center;
 }
 div.footer {
@@ -100,7 +104,7 @@ div.footerstuff {
     color: darkcyan;
     font-size: 1.40em;
     padding-left: 10px;
-    font-family: "Brush Script MT", sans-serif;
+    font-family: "Architects Daughter", "Brush Script MT", sans-serif;
 }
 img#everestday {
     float: right;
@@ -248,6 +252,6 @@ video.mode {
     border-radius: 25px;
 }
 p.comparisontxt {
-    padding-top:100px;
-    padding-bottom:100px;
+    padding-top:75px;
+    padding-bottom:75px;
 }
