@@ -106,11 +106,33 @@ div.footerstuff {
     padding-left: 10px;
     font-family: "Architects Daughter", "Brush Script MT", sans-serif;
 }
-img#everestday {
+div#extrastuff{
+    color: darkgreen;
+    font-size: .8em;
+    padding-left: 10px;
+    font-family: "Architects Daughter", "Brush Script MT", sans-serif;
+}
+img#everestday, img#murphyfire {
     float: right;
     border-radius:25px;
-    margin: 0em 0em 0em .75em;
+    margin: .25em 0em 0em .75em;
     width:45%;
+}
+img#murphy {
+    float: left;
+    border-radius:25px;
+    margin: 0.25em 0.75em 0em 0em;
+    width:45%;
+}
+img#joe {
+    border-radius: 25px;
+    float: right;
+    margin: 0.25em 0em 0em .75em;
+    width: 300px;
+}
+img.pic {
+    width:300px;
+    height:300px;
 }
 video#everestmove {
     float:right;
@@ -118,16 +140,34 @@ video#everestmove {
     border-radius:25px;
     margin: .25em 0em 0em .75em;
 }
+video#murphyworking {
+    float:left;
+    width:45%;
+    border-radius:25px;
+    margin: .25em 0.75em 0em 0em;
+}
 video#everestanimation, video#amode, video#bmode {
     float:left;
     width:50%;
     border-radius:25px;
     margin: .25em .75em .5em 0em;
 }
+video#brokenmurphy {
+    float:right;
+    width:50%;
+    border-radius:25px;
+    margin: 0.25em 0em 0em 0.75em;
+}
+video#brokenmurphy {
+    float:t;
+    width:50%;
+    border-radius:25px;
+    margin: 0.25em 0em 0em 0.75em;
+}
 span#everestfloat {
     border-radius: 25px;
     float: left;
-    margin: 0em .75em 0em 0em;
+    margin: .25em .75em 0em 0em;
     width: 140px;
     border:dotted;
     border-color:darkcyan;
@@ -138,7 +178,7 @@ span#everestfloat {
 span#rohdequote {
     border-radius: 25px;
     float: right;
-    margin: 0em 0em 0em 0.75em;
+    margin: .25em 0em 0em 0.75em;
     width: 200px;
     border:dotted;
     border-color:darkcyan;
@@ -149,7 +189,7 @@ span#rohdequote {
 span#dinosaurfloat, span#bugfloat {
     border-radius: 25px;
     float: left;
-    margin: 0em 0.75em 0em 0em;
+    margin: .25em 0.75em 0em 0em;
     width: 135px;
     border:dotted;
     border-color:darkcyan;
@@ -161,7 +201,7 @@ span#dinosaurfloat, span#bugfloat {
 span#dinosaur2float {
     border-radius: 25px;
     float: left;
-    margin: 0em 0.75em 0em 0em;
+    margin: 0.25em 0.75em 0em 0em;
     width: 145px;
     border:dotted;
     border-color:darkcyan;
@@ -172,7 +212,7 @@ span#dinosaur2float {
 span#peoplemoverfloat {
     border-radius: 25px;
     float: left;
-    margin: 0em 0.75em 0em 0em;
+    margin: 0.25em 0.75em 0em 0em;
     width: 160px;
     border:dotted;
     border-color:darkcyan;
@@ -184,7 +224,7 @@ span#peoplemoverfloat {
 span#tcfloat {
     border-radius: 25px;
     float: left;
-    margin: 0em 0.75em 0em 0em;
+    margin: 025em 0.75em 0em 0em;
     width: 130px;
     border:dotted;
     border-color:darkcyan;
@@ -196,7 +236,7 @@ span#tcfloat {
 span#ijfloat {
     border-radius: 25px;
     float: left;
-    margin: 0em 0.75em 0em 0em;
+    margin: 0.25em 0.75em 0em 0em;
     width: 145px;
     border:dotted;
     border-color:darkcyan;
@@ -207,7 +247,7 @@ span#ijfloat {
 span#splashfloat {
     border-radius: 25px;
     float: left;
-    margin: 0em 0.75em 0em 0em;
+    margin: 0.25em 0.75em 0em 0em;
     width: 145px;
     border:dotted;
     border-color:darkcyan;
@@ -216,11 +256,23 @@ span#splashfloat {
     color: darkcyan;
     text-align: left;
 }
-span#splash2float, span#splash3float {
+span#splash2float, span#splash3float, span#fantasmicfloat {
     border-radius: 25px;
     float: right;
-    margin: 0em 0em 0em 0.75em;
+    margin: 0.25em 0em 0em 0.75em;
     width: 150px;
+    border:dotted;
+    border-color:darkcyan;
+    background-color: powderblue;
+    padding: 10px;
+    color: darkcyan;
+    text-align: left;
+}
+span#fantasmic2float {
+    border-radius: 25px;
+    float: right;
+    margin: 0.25em 0em 0em 0.75em;
+    width: 120px;
     border:dotted;
     border-color:darkcyan;
     background-color: powderblue;
@@ -230,16 +282,6 @@ span#splash2float, span#splash3float {
 }
 div.piclinks {
     text-align: center;
-}
-img#joe {
-    border-radius: 25px;
-    float: right;
-    margin: 0em 0em 0em .75em;
-    width: 300px;
-}
-img.pic {
-    width:300px;
-    height:300px;
 }
 h1#homepagetitle, h3#homepagecaption {
     text-align:center;
