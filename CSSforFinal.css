@@ -325,3 +325,32 @@ button#increasebutton {
     margin-top: 25px;
     margin-left: 22.5%;
 }
+@media (max-width: 815px) {
+    body {
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 0.75em;
+    }
+    div.headerstuff {
+        padding: 7.5px;
+        font-size: 0.6em;
+    }
+    h1 {
+        font-size: 2.5em;
+    }
+    h2 {
+        font-size: 1.75em;
+    }
+    h3 {
+        font-size:2em;
+    }
+    
+}
+@media (max-width: 1025px) {
+    h1 {
+        font-size: 3em;
+    }
+    h2 {
+        font-size: 2.25em;
+    }
+}
