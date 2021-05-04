@@ -106,7 +106,7 @@ div.footerstuff {
     padding-left: 10px;
     font-family: "Architects Daughter", "Brush Script MT", sans-serif;
 }
-div#extrastuff{
+div#extrastuff, div#extrastuff2{
     color: darkgreen;
     font-size: .8em;
     padding-left: 10px;
@@ -134,7 +134,7 @@ img.pic {
     width:300px;
     height:300px;
 }
-video#everestmove {
+video#everestmove, video#workingqaraq {
     float:right;
     width:35%;
     border-radius:25px;
