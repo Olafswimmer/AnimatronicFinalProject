@@ -112,7 +112,7 @@ div#extrastuff, div#extrastuff2{
     padding-left: 10px;
     font-family: "Architects Daughter", "Brush Script MT", sans-serif;
 }
-img#everestday, img#murphyfire {
+img#everestday, img#murphyfire, img#rrapidsentrance {
     float: right;
     border-radius:25px;
     margin: .25em 0em 0em .75em;
@@ -124,29 +124,29 @@ img#murphy {
     margin: 0.25em 0.75em 0em 0em;
     width:45%;
 }
-img#joe {
+img#joe, img#qaraqsculpture {
     border-radius: 25px;
     float: right;
     margin: 0.25em 0em 0em .75em;
-    width: 300px;
+    width: 30%;
 }
 img.pic {
     width:300px;
     height:300px;
 }
-video#everestmove, video#workingqaraq {
+video#everestmove {
     float:right;
     width:35%;
     border-radius:25px;
     margin: .25em 0em 0em .75em;
 }
-video#murphyworking {
+video#murphyworking, video#workingqaraq {
     float:left;
     width:45%;
     border-radius:25px;
     margin: .25em 0.75em 0em 0em;
 }
-video#everestanimation, video#amode, video#bmode {
+video#everestanimation, video#amode, video#bmode, video#cakemoving, video#cakestopped {
     float:left;
     width:50%;
     border-radius:25px;
@@ -164,7 +164,7 @@ video#brokenmurphy {
     border-radius:25px;
     margin: 0.25em 0em 0em 0.75em;
 }
-span#everestfloat {
+span#everestfloat, span#gmrfloat {
     border-radius: 25px;
     float: left;
     margin: .25em .75em 0em 0em;
@@ -174,6 +174,7 @@ span#everestfloat {
     background-color: powderblue;
     padding: 10px;
     color: darkcyan;
+    text-align: center;
 }
 span#rohdequote {
     border-radius: 25px;
@@ -185,6 +186,7 @@ span#rohdequote {
     background-color: powderblue;
     padding: 10px;
     color: darkcyan;
+    text-align: center;
 }
 span#dinosaurfloat, span#bugfloat {
     border-radius: 25px;
@@ -196,7 +198,7 @@ span#dinosaurfloat, span#bugfloat {
     background-color: powderblue;
     padding: 10px;
     color: darkcyan;
-    text-align: left;
+    text-align: center;
 }
 span#dinosaur2float {
     border-radius: 25px;
@@ -208,6 +210,7 @@ span#dinosaur2float {
     background-color: powderblue;
     padding: 10px;
     color: darkcyan;
+    text-align: center;
 }
 span#peoplemoverfloat {
     border-radius: 25px;
@@ -219,19 +222,31 @@ span#peoplemoverfloat {
     background-color: powderblue;
     padding: 10px;
     color: darkcyan;
-    text-align: left;
+    text-align: center;
 }
 span#tcfloat {
     border-radius: 25px;
     float: left;
-    margin: 025em 0.75em 0em 0em;
+    margin: 0.25em 0.75em 0em 0em;
+    width: 95px;
+    border:dotted;
+    border-color:darkcyan;
+    background-color: powderblue;
+    padding: 10px;
+    color: darkcyan;
+    text-align: center;
+}
+span#roaringrapidsfloat {
+    border-radius: 25px;
+    float: left;
+    margin: 0.25em 0.75em 0em 0em;
     width: 130px;
     border:dotted;
     border-color:darkcyan;
     background-color: powderblue;
     padding: 10px;
     color: darkcyan;
-    text-align: left;
+    text-align: center;
 }
 span#ijfloat {
     border-radius: 25px;
@@ -243,6 +258,7 @@ span#ijfloat {
     background-color: powderblue;
     padding: 10px;
     color: darkcyan;
+    text-align: center;
 }
 span#splashfloat {
     border-radius: 25px;
@@ -254,7 +270,7 @@ span#splashfloat {
     background-color: powderblue;
     padding: 10px;
     color: darkcyan;
-    text-align: left;
+    text-align: center;
 }
 span#splash2float, span#splash3float, span#fantasmicfloat {
     border-radius: 25px;
@@ -266,7 +282,7 @@ span#splash2float, span#splash3float, span#fantasmicfloat {
     background-color: powderblue;
     padding: 10px;
     color: darkcyan;
-    text-align: left;
+    text-align: center;
 }
 span#fantasmic2float {
     border-radius: 25px;
@@ -278,7 +294,7 @@ span#fantasmic2float {
     background-color: powderblue;
     padding: 10px;
     color: darkcyan;
-    text-align: left;
+    text-align: center;
 }
 div.piclinks {
     text-align: center;
@@ -289,11 +305,23 @@ h1#homepagetitle, h3#homepagecaption {
 a {
     text-decoration:none;
 }
-video.mode {
-    width:45%;
-    border-radius: 25px;
-}
 p.comparisontxt {
-    padding-top:75px;
-    padding-bottom:75px;
+    padding-top:1%;
+    padding-bottom: 14%;
+}
+p.comparisontxt2 {
+    padding-top:2%;
+    padding-bottom: 15.5%;
+}
+button#increasebutton {
+    font-family: "Architects Daughter", Arial, sans-serif;
+    color: darkcyan;
+    padding: 0px 50px;
+    font-size: 2em;
+    background-color: powderblue;
+    border-radius: 25px;
+    border-style: dotted;
+    border-color: darkcyan;
+    margin-top: 25px;
+    margin-left: 22.5%;
 }
