@@ -125,7 +125,7 @@ img#josemissing, img#donaldleaning {
     margin: 0.25em 0.75em 0em 0em;
     width:35%;
 }
-img#murphy, video#hopperworking {
+img#murphy {
     float: left;
     border-radius:25px;
     margin: 0.25em 0.75em 0em 0em;
@@ -159,7 +159,7 @@ video#everestanimation, video#amode, video#bmode, video#cakemoving, video#cakest
     border-radius:25px;
     margin: .25em .75em .5em 0em;
 }
-video#brokenmurphy, img#abandonedpeoplemover, img#mmrr {
+video#brokenmurphy, img#abandonedpeoplemover, img#mmrr, video#hopperworking, img#hopper {
     float:right;
     width:50%;
     border-radius:25px;
@@ -169,7 +169,7 @@ span#everestfloat, span#gmrfloat, span#peoplemover2float, span#peoplemover3float
     border-radius: 25px;
     float: left;
     margin: .25em .75em 0em 0em;
-    width: 140px;
+    width: 175px;
     border:dotted;
     border-color:darkcyan;
     background-color: powderblue;
@@ -193,7 +193,7 @@ span#dinosaurfloat, span#bugfloat {
     border-radius: 25px;
     float: left;
     margin: .25em 0.75em 0em 0em;
-    width: 135px;
+    width: 175px;
     border:dotted;
     border-color:darkcyan;
     background-color: powderblue;
@@ -217,7 +217,7 @@ span#peoplemoverfloat {
     border-radius: 25px;
     float: left;
     margin: 0.25em 0.75em 0em 0em;
-    width: 160px;
+    width: 205px;
     border:dotted;
     border-color:darkcyan;
     background-color: powderblue;
@@ -229,7 +229,7 @@ span#tcfloat {
     border-radius: 25px;
     float: left;
     margin: 0.25em 0.75em 0em 0em;
-    width: 95px;
+    width: 115px;
     border:dotted;
     border-color:darkcyan;
     background-color: powderblue;
@@ -253,7 +253,7 @@ span#ijfloat {
     border-radius: 25px;
     float: left;
     margin: 0.25em 0.75em 0em 0em;
-    width: 145px;
+    width: 175px;
     border:dotted;
     border-color:darkcyan;
     background-color: powderblue;
@@ -265,7 +265,7 @@ span#splashfloat {
     border-radius: 25px;
     float: left;
     margin: 0.25em 0.75em 0em 0em;
-    width: 145px;
+    width: 175px;
     border:dotted;
     border-color:darkcyan;
     background-color: powderblue;
@@ -307,12 +307,10 @@ a {
     text-decoration:none;
 }
 p.comparisontxt {
-    padding-top:1%;
-    padding-bottom: 14%;
+    padding-bottom: 15%;
 }
 p.comparisontxt2 {
-    padding-top:2%;
-    padding-bottom: 15.5%;
+    padding-bottom: 18%;
 }
 button#increasebutton {
     font-family: "Architects Daughter", Arial, sans-serif;
