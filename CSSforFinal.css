@@ -10,7 +10,7 @@ a:visited {
     color: darkcyan;  
 }
 a:hover {
-    color: red;
+    color: lightcyan;
 }
 a:active {
     color: midnightblue
@@ -123,7 +123,7 @@ img#josemissing, img#donaldleaning {
     margin: 0.25em 0.75em 0em 0em;
     width:35%;
 }
-img#murphy {
+img#murphy, video#hopperworking {
     float: left;
     border-radius:25px;
     margin: 0.25em 0.75em 0em 0em;
@@ -139,7 +139,7 @@ img.pic {
     width:300px;
     height:300px;
 }
-video#everestmove, img#indianajonesvehicle, video#indianajonesice, img#peoplemoverposter, video#splashmountainworking, img#footlightparade, img#tccutouts, img#josefaceplant {
+video#everestmove, img#indianajonesvehicle, video#indianajonesice, img#itstoughtobeabugsign, img#peoplemoverposter, video#splashmountainworking, img#footlightparade, img#tccutouts, img#josefaceplant {
     float:right;
     width:35%;
     border-radius:25px;
@@ -341,7 +341,7 @@ button#increasebutton {
         font-size: 1.75em;
     }
     h3 {
-        font-size:2em;
+        font-size:1.25em;
     }
     
 }
