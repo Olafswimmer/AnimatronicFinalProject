@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Rock+Salt&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
 body {
     background-color:lightcyan;
     margin-left: 10%;
@@ -324,6 +325,18 @@ button#increasebutton {
     border-color: darkcyan;
     margin-top: 25px;
     margin-left: 22.5%;
+}
+button#decreasebutton {
+    font-family: "Architects Daughter", Arial, sans-serif;
+    color: darkcyan;
+    padding: 0px 50px;
+    font-size: 2em;
+    background-color: powderblue;
+    border-radius: 25px;
+    border-style: dotted;
+    border-color: darkcyan;
+    margin-top: 25px;
+    margin-left: 22%;
 }
 @media (max-width: 815px) {
     body {
