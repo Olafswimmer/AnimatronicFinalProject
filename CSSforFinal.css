@@ -111,7 +111,7 @@ div#extrastuff, div#extrastuff2{
     padding-left: 10px;
     font-family: "Architects Daughter", "Brush Script MT", sans-serif;
 }
-img#everestday, img#murphyfire, img#rrapidsentrance {
+img#everestday, img#murphyfire, img#rrapidsentrance, img#indianajonessign, img#peoplemoverworking {
     float: right;
     border-radius:25px;
     margin: .25em 0em 0em .75em;
@@ -133,13 +133,13 @@ img.pic {
     width:300px;
     height:300px;
 }
-video#everestmove {
+video#everestmove, img#indianajonesvehicle, video#indianajonesice, img#peoplemoverposter {
     float:right;
     width:35%;
     border-radius:25px;
     margin: .25em 0em 0em .75em;
 }
-video#murphyworking, video#workingqaraq {
+video#murphyworking, video#workingqaraq, video#indianajonesbroken, img#rocketrods {
     float:left;
     width:45%;
     border-radius:25px;
@@ -151,19 +151,13 @@ video#everestanimation, video#amode, video#bmode, video#cakemoving, video#cakest
     border-radius:25px;
     margin: .25em .75em .5em 0em;
 }
-video#brokenmurphy {
+video#brokenmurphy, img#abandonedpeoplemover {
     float:right;
     width:50%;
     border-radius:25px;
     margin: 0.25em 0em 0em 0.75em;
 }
-video#brokenmurphy {
-    float:right;
-    width:50%;
-    border-radius:25px;
-    margin: 0.25em 0em 0em 0.75em;
-}
-span#everestfloat, span#gmrfloat {
+span#everestfloat, span#gmrfloat, span#peoplemover2float, span#peoplemover3float {
     border-radius: 25px;
     float: left;
     margin: .25em .75em 0em 0em;
