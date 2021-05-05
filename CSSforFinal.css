@@ -13,7 +13,7 @@ a:hover {
     color: red;
 }
 a:active {
-    color: blue
+    color: midnightblue
 }
 h1,h2,h3 {
     color: darkgreen;
@@ -30,7 +30,7 @@ h2 {
     font-size: 3em;
 }
 h3 {
-    font-family: "Amatic SC", sacramento, blueberry, cursive, snell, "apple chancery", fantasy, sans-serif;
+    font-family: "Amatic SC", sacramento, blueberry, fantasy, sans-serif;
     font-size: 2.24em;
 }
 p {
@@ -111,11 +111,17 @@ div#extrastuff, div#extrastuff2{
     padding-left: 10px;
     font-family: "Architects Daughter", "Brush Script MT", sans-serif;
 }
-img#everestday, img#murphyfire, img#rrapidsentrance, img#indianajonessign, img#peoplemoverworking {
+img#everestday, img#murphyfire, img#rrapidsentrance, img#indianajonessign, img#peoplemoverworking, img#splashmountainwater, img#granfiestatour, img#donaldburial {
     float: right;
     border-radius:25px;
     margin: .25em 0em 0em .75em;
     width:45%;
+}
+img#josemissing, img#donaldleaning {
+    float: left;
+    border-radius:25px;
+    margin: 0.25em 0.75em 0em 0em;
+    width:35%;
 }
 img#murphy {
     float: left;
@@ -123,7 +129,7 @@ img#murphy {
     margin: 0.25em 0.75em 0em 0em;
     width:45%;
 }
-img#joe, img#qaraqsculpture {
+img#joe, img#qaraqsculpture, img#gmrsign {
     border-radius: 25px;
     float: right;
     margin: 0.25em 0em 0em .75em;
@@ -133,25 +139,25 @@ img.pic {
     width:300px;
     height:300px;
 }
-video#everestmove, img#indianajonesvehicle, video#indianajonesice, img#peoplemoverposter {
+video#everestmove, img#indianajonesvehicle, video#indianajonesice, img#peoplemoverposter, video#splashmountainworking, img#footlightparade, img#tccutouts, img#josefaceplant {
     float:right;
     width:35%;
     border-radius:25px;
     margin: .25em 0em 0em .75em;
 }
-video#murphyworking, video#workingqaraq, video#indianajonesbroken, img#rocketrods {
+video#murphyworking, video#workingqaraq, video#indianajonesbroken, img#rocketrods, video#splashmountainbroken, img#footlightparadecake {
     float:left;
     width:45%;
     border-radius:25px;
     margin: .25em 0.75em 0em 0em;
 }
-video#everestanimation, video#amode, video#bmode, video#cakemoving, video#cakestopped {
+video#everestanimation, video#amode, video#bmode, video#cakemoving, video#cakestopped, img#splashmountainretheme {
     float:left;
     width:50%;
     border-radius:25px;
     margin: .25em .75em .5em 0em;
 }
-video#brokenmurphy, img#abandonedpeoplemover {
+video#brokenmurphy, img#abandonedpeoplemover, img#mmrr {
     float:right;
     width:50%;
     border-radius:25px;
