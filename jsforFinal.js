@@ -8,3 +8,10 @@ function onButtonClick() {
     everestincrease.style.width = "195px";
     joeincrease.style.width = "225px";
 }
+decreasebutton = document.getElementById("decreasebutton");  
+decreasebutton.addEventListener("click", onButtonClick2);
+function onButtonClick2() {    
+    increasestuff.style.fontSize = "";
+    everestincrease.style.width = "140px";
+    joeincrease.style.width = "200px";
+}
