@@ -12,10 +12,13 @@ a:visited {
     color: darkcyan;  
 }
 a:hover {
-    color: lightcyan;
+    color: midnightblue;
 }
 a:active {
-    color: midnightblue
+    color: lightcyan;
+}
+a {
+    text-decoration:none;
 }
 h1,h2,h3 {
     color: darkgreen;
@@ -42,13 +45,24 @@ p {
     padding: 0px 50px;
     font-size: 1.5em;
 }
+ul {
+    text-align: justify;
+    font-family: "Architects Daughter", Arial, sans-serif;
+    color: midnightblue;
+    padding: 0px 75px;
+    font-size: 1.5em;
+}
 div.header, div.headercontent, div.homeheader, div.footer, div.epcotheader, div.dlheader, div.hsheader, div.sdheader,
-div.cabheader, div.smheader, div.hubheader {
+div.cabheader, div.smheader, div.hubheader, div.fuheader {
     border: darkcyan;
     background-color: powderblue;
     border-radius: 25px;
     display:flex;
     border-style:dotted;
+}
+div.fuheader {
+    margin:0% 46.5%;
+    justify-content:center;
 }
 div.headercontent {
     margin:0% 30%;
@@ -106,6 +120,10 @@ div.footerstuff {
     font-size: 1.40em;
     padding-left: 10px;
     font-family: "Architects Daughter", "Brush Script MT", sans-serif;
+}
+div#fairuse {
+    background-color: azure;
+    width: fit-content;
 }
 div#extrastuff, div#extrastuff2{
     color: darkgreen;
@@ -303,9 +321,6 @@ div.piclinks {
 h1#homepagetitle, h3#homepagecaption {
     text-align:center;
 }
-a {
-    text-decoration:none;
-}
 p.comparisontxt {
     padding-bottom: 15%;
 }
@@ -315,7 +330,7 @@ p.comparisontxt2 {
 button#increasebutton {
     font-family: "Architects Daughter", Arial, sans-serif;
     color: darkcyan;
-    padding: 0px 50px;
+    padding: 0px 20px;
     font-size: 2em;
     background-color: powderblue;
     border-radius: 25px;
@@ -323,18 +338,20 @@ button#increasebutton {
     border-color: darkcyan;
     margin-top: 25px;
     margin-left: 22.5%;
+    margin-right:22.5%
 }
 button#decreasebutton {
     font-family: "Architects Daughter", Arial, sans-serif;
     color: darkcyan;
-    padding: 0px 50px;
+    padding: 0px 20px;
     font-size: 2em;
     background-color: powderblue;
     border-radius: 25px;
     border-style: dotted;
     border-color: darkcyan;
     margin-top: 25px;
-    margin-left: 22%;
+    margin-left: 22.5%;
+    margin-right: 22.5%;
 }
 @media (max-width: 815px) {
     body {
@@ -347,15 +364,26 @@ button#decreasebutton {
         font-size: 0.6em;
     }
     h1 {
-        font-size: 2.5em;
+        font-size: 1.75em;
     }
     h2 {
-        font-size: 1.75em;
+        font-size: 1.5em;
     }
     h3 {
         font-size:1.25em;
     }
-    
+    p {
+        padding: 0px 15px;
+        font-size: .9em;
+    }
+    button#increasebutton {
+        font-size: 1.25em;
+        margin-left: 25%;
+    }
+    button#decreasebutton {
+        font-size: 1.25em;
+        margin-left: 25%;
+    }
 }
 @media (max-width: 1025px) {
     h1 {
@@ -363,5 +391,24 @@ button#decreasebutton {
     }
     h2 {
         font-size: 2.25em;
+    }
+}
+@media (orientation: landscape) {
+    button#increasebutton {
+        font-size: 2em;
+        margin-left: 27%;
+        margin-right: 27%;
+    }
+    button#decreasebutton {
+        font-size: 2em;
+        margin-left: 27%;
+        margin-right: 27%;
+    }
+    div.headerstuff {
+        padding: 7.5px;
+        font-size: 1.25em;
+    }
+    p {
+        font-size: 1.5em;
     }
 }
