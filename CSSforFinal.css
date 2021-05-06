@@ -113,7 +113,7 @@ div#extrastuff, div#extrastuff2{
     padding-left: 10px;
     font-family: "Architects Daughter", "Brush Script MT", sans-serif;
 }
-img#everestday, img#murphyfire, img#rrapidsentrance, img#indianajonessign, img#peoplemoverworking, img#splashmountainwater, img#granfiestatour, img#donaldburial {
+img#everestday, img#murphyfire, img#rrapidsentrance, img#indianajonessign, img#peoplemoverworking, img#splashmountainwater, img#granfiestatour, img#donaldburial, img#dinosaur3, img#CTX {
     float: right;
     border-radius:25px;
     margin: .25em 0em 0em .75em;
@@ -147,19 +147,19 @@ video#everestmove, img#indianajonesvehicle, video#indianajonesice, img#itstought
     border-radius:25px;
     margin: .25em 0em 0em .75em;
 }
-video#murphyworking, video#workingqaraq, video#indianajonesbroken, img#rocketrods, video#splashmountainbroken, img#footlightparadecake {
+video#murphyworking, video#workingqaraq, video#indianajonesbroken, img#rocketrods, video#splashmountainbroken, img#footlightparadecake, video#compsognathus {
     float:left;
     width:45%;
     border-radius:25px;
     margin: .25em 0.75em 0em 0em;
 }
-video#everestanimation, video#amode, video#bmode, video#cakemoving, video#cakestopped, img#splashmountainretheme {
+video#everestanimation, video#amode, video#bmode, video#cakemoving, video#cakestopped, img#splashmountainretheme, video#brokenpterodactyl {
     float:left;
     width:50%;
     border-radius:25px;
     margin: .25em .75em .5em 0em;
 }
-video#brokenmurphy, img#abandonedpeoplemover, img#mmrr, video#hopperworking, img#hopper {
+video#brokenmurphy, img#abandonedpeoplemover, img#mmrr, video#hopperworking, img#hopper, img#confused, img#pterodactyl, video#brokencompsognathus, img#carnatour {
     float:right;
     width:50%;
     border-radius:25px;
